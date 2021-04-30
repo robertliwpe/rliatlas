@@ -1,0 +1,5 @@
+email: rliatlas
+ssh_key: /home/rli/.config/Local/ssh/wpe-connect
+update_check: false
+analytics: false
+alpha_commands_access: true

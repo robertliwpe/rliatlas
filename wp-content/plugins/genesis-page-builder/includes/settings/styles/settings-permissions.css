@@ -1,0 +1,188 @@
+.gpb-control-settings {
+    margin: 0 2% 2%;
+    font-size: 20px;
+    border: solid 1px #e5e4e6;
+}
+
+.gpb-control-settings-head {
+    background: #263239;
+    color: #fff;
+    font-weight: bold;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gpb-control-settings-head > div {
+    padding: 21px 25px;
+}
+
+.gpb-control-settings-head div:last-child {
+    text-align: right;
+}
+
+.gpb-control-settings-expand-all:hover,
+.gpb-control-settings-collapse-all:hover {
+    cursor: pointer;
+    color: #ddd;
+}
+
+.gpb-control-settings-expand-all {
+    display: block;
+}
+
+.gpb-control-settings-expand-all.gpb-hidden {
+    display: none;
+}
+
+.gpb-control-settings-collapse-all {
+    display: none;
+}
+
+.gpb-control-settings-collapse-all.gpb-visible {
+    display: block;
+}
+
+.gpb-control-settings-entry {
+    border-top: solid 1px #ddd;
+}
+
+.gpb-control-settings-block-open + .gpb-control-settings-block-open {
+    border-top: solid 1px #ccc;
+}
+
+.gpb-control-settings-entry-header span {
+    display: none;
+}
+
+.gpb-control-settings-block-open .gpb-control-settings-entry-header span {
+    display: block;
+}
+
+.gpb-control-settings-entry:hover {
+    background: #f7f7f9;
+}
+
+.gpb-control-settings-entry:first-child {
+    border-top: none;
+}
+
+.gpb-control-settings-block {
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gpb-control-settings-block-open .gpb-control-settings-block {
+    background: #edeaf1;
+}
+
+.gpb-control-settings-block > div {
+    padding: 25px;
+}
+
+.gpb-control-settings-block-toggle {
+    text-align: right;
+    margin-top: 3px;
+}
+
+.gpb-control-settings-control-settings {
+    background: #f5f4f6;
+    padding: 25px;
+    display: none;
+}
+
+.gpb-control-settings-control-settings-open {
+    display: block;
+}
+
+.gpb-control-settings-control-settings-entry {
+    background: #fff;
+    border-bottom: solid 1px #ddd;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 5;
+    position: relative;
+    transition: .2s ease;
+}
+
+.gpb-control-settings-control-settings-entry > div {
+    padding: 25px;
+    line-height: 1.4;
+}
+
+.gpb-control-settings-control-settings-entry:last-child {
+    border-bottom: none;
+}
+
+.gpb-control-settings-block-toggle:hover {
+    cursor: pointer;
+}
+
+.gpb-control-settings-entry-open .gpb-control-settings-block-permission fieldset {
+    display: block;
+}
+
+.gpb-control-settings-control-settings-entry div:last-child {
+    text-align: right;
+    font-size: 14px;
+}
+
+.gpb-control-settings-block-permission {
+    z-index: 10;
+    position: relative;
+    padding-left: 10px;
+}
+
+.gpb-control-settings-control-settings-entry:not(.gpb-control-settings-entry-open) .gpb-control-settings-block-permission {
+    pointer-events: none;
+}
+
+.gpb-control-settings-block-permission fieldset {
+    display: none;
+}
+
+.gpb-control-settings-block-permission label {
+    padding: 8px 0;
+    display: inline-block;
+    width: 100%;
+    z-index: 40;
+    position: relative;
+}
+
+.gpb-control-settings-block-permission input {
+    margin-right: 8px;
+}
+
+.gpb-getting-started p.genesis-blocks-settings-description,
+.gpb-getting-started p.genesis-page-builder-settings-description {
+    margin: 5px 0;
+    color: #666;
+    font-size: 16px;
+    font-style: italic;
+}
+
+label[for="genesis-page-builder-settings[analytics-opt-in]"] {
+    vertical-align: baseline;
+}
+
+label[for="genesis-page-builder-settings[analytics-opt-in]"],
+#genesis-page-builder-settings[analytics-opt-in] {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.genesis-page-builder-analytics-form-table {
+    border-top: dotted 1px #ccc;
+    margin-top: 10px;
+    padding-top: 20px;
+    display: block;
+}
+
+#tab-panel-0-genesis_blocks_settings_block_permissions_section-view p {
+	margin: 0 2% 2%;
+}

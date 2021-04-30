@@ -1,0 +1,1 @@
+/home/rli/Local Sites/rliatlas/app/public/wp-content/plugins/query-monitor/wp-content/db.php
